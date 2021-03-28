@@ -1,0 +1,11 @@
+name: daily deploy
+on:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Vercel API
+        run: |
+          curl -X POST ${{ secrets.VERCEL_TRIGGER_URL }}
