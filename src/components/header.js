@@ -28,17 +28,6 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <div >
-        <Link
-          to="/books"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          My Books
-      </Link>
-      </div>
     </div>
   </header>
 )

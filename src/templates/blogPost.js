@@ -26,11 +26,6 @@ export const query = graphql`
       html
       title
       tags
-      books {
-          cover
-          slug
-          title
-      }
       publish_date
     }
   }

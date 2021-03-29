@@ -27,11 +27,6 @@ export const query = graphql`
         status
         slug
         publish_date(fromNow: false)
-        books {
-          title
-          slug
-          cover
-        }
       }
     }
   }
