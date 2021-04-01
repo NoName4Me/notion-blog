@@ -90,7 +90,8 @@
 
 .notion-collection-card-cover .notion-collection-card-cover-empty {
   border-radius: 16px;
-  background: no-repeat center/100% url(https://images.unsplash.com/photo-1544709116-983c98327d46);
+  background: no-repeat center/100%
+    url(https://images.unsplash.com/photo-1544709116-983c98327d46);
   overflow: hidden;
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
@@ -338,4 +339,8 @@
 .notion-bookmark:hover {
   border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
   border-image-slice: 1;
+}
+
+.notion-toggle[open] {
+  width: 100%;
 }

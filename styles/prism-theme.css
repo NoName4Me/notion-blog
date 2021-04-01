@@ -11,16 +11,6 @@
   background-color: rgba(17, 24, 39, 1);
   border-color: rgba(55, 65, 81, 1);
 }
-.notion code {
-  color: rgba(31, 41, 55, 1);
-  border: 0 none !important;
-  box-shadow: none !important;
-  background: none !important;
-  padding: 0 !important;
-}
-.dark-mode .notion code {
-  color: rgba(229, 231, 235, 1);
-}
 .token.cdata,
 .token.doctype,
 .token.prolog {
@@ -104,4 +94,45 @@ pre[class*='language-'] > code {
   border-left: 0 none !important;
   box-shadow: none !important;
   background: none !important;
+}
+
+.notion-collection-row .notion-property-multi_select-item {
+  border-radius: 16px;
+  padding: 4px 16px;
+  color: white;
+  font-size: 18px;
+  height: unset;
+  cursor: pointer;
+}
+.notion-property-multi_select-item.notion-item-green {
+  background-color: var(--notion-teal);
+}
+.notion-property-multi_select-item.notion-item-blue {
+  background-color: var(--notion-blue);
+}
+.notion-property-multi_select-item.notion-item-pink {
+  background-color: var(--notion-pink);
+}
+.notion-property-multi_select-item.notion-item-purple {
+  background-color: var(--notion-purple);
+}
+.notion-property-multi_select-item.notion-item-default {
+  background-color: var(--notion-gray);
+}
+.notion-property-multi_select-item.notion-item-red {
+  background-color: var(--notion-red);
+}
+.notion-property-multi_select-item.notion-item-yellow {
+  background-color: var(--notion-yellow);
+}
+.notion-property-multi_select-item.notion-item-orange {
+  background-color: var(--notion-orange);
+}
+.notion-property-multi_select-item.notion-item-brown {
+  background-color: var(--notion-brown);
+}
+
+/* properties after last modified */
+.notion-page .notion-collection-row-body .notion-collection-row-property:nth-child(2) ~ .notion-collection-row-property{
+  display: none;
 }
