@@ -344,3 +344,16 @@
 .notion-toggle[open] {
   width: 100%;
 }
+
+.notion-page-content-inner .notion-row {
+  position: sticky;
+  top: -1px;
+  z-index: 999;
+}
+.notion-page-content-inner .notion-row .notion-page-link {
+  justify-content: center;
+}
+
+.notion-property .notion-property-multi_select-item {
+  color: white;
+}

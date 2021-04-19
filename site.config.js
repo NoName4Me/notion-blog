@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Jonge\'s',
-  domain: 'noname4me.github.io',
+  domain: 'nuzhi.site',
   author: '奴止',
 
   // open graph metadata (optional)
